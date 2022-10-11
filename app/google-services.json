@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "312960901834",
+    "project_id": "farmizen-54351",
+    "storage_bucket": "farmizen-54351.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:312960901834:android:10960d3edfe8ff6b1b8a33",
+        "android_client_info": {
+          "package_name": "com.example.farmizen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "312960901834-lko6a42jk8qgso31ch917tm3gbp5djr5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuySrjjNz5ldKoauvry6JDNBfG-BctXUs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "312960901834-lko6a42jk8qgso31ch917tm3gbp5djr5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

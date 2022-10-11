@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity2"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WELCOME!"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PLEASE LOGIN TO CONTINUE"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"/>
+    <View
+        android:layout_width="100dp"
+        android:layout_height="5dp"
+        android:background="#ff00"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        android:layout_marginTop="20dp"/>
+    
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ENTER E-MAIL ID"
+        android:id="@+id/email"
+        android:textColorHint="#888"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:background="@drawable/myshape2"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:singleLine="true"
+        android:inputType="textEmailAddress"
+        android:imeOptions="actionNext"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="ENTER THE PASSWORD"
+        android:id="@+id/pass"
+        android:textColorHint="#888"
+        android:padding="10dp"
+        android:background="@drawable/myshape2"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:singleLine="true"
+        android:inputType="textPassword"
+        android:imeOptions="actionDone"
+        android:textStyle="bold"/>
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/login"
+        android:background="@drawable/myshape"
+        app:backgroundTint="#d9d9d9"
+        android:text="Login"
+        android:layout_marginTop="30dp"
+        android:padding="5dp"
+        android:textColor="@color/black"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't have an Account?"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:id="@+id/signup"
+            android:textColor="@color/black"
+            android:textSize="20dp"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/s2" />
+
+
+</LinearLayout>
